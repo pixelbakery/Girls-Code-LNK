@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|Lato:300,300i,400,400i,700,700i&display=swap');
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, a.navbar-brand{
+  Font-Family: 'Arvo', Serif;
+}
+h2, .h2{
+
+}
+h3, .h3{
+
+}
+h4, .h4{
+
+}
+nav a.navbar-brand{
+
+}
+p, .p{
+
+}
