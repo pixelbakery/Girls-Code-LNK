@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|Lato:300,300i,400,400i,700,700i&display=swap');
+
+/******  button styles *****/
+.two-button-span-centered{
+  width: 100%;
+  margin-left: 100px;
+}
+
+.one-button-span-centered {
+  width: 100%;
+  text-align: center;
+}
+.button-width{
+  width: 150px;
+  padding: 10px;
+}
+.button-div-spacing {
+  display: inline;
+  margin-left: 25px;
+}
+
+.bottom-button {
+
+  position: absolute;
+  bottom: 10px;
+  margin-left: -104px;
+}
+/******  paragraph styles ******/
+.h3-subtitle-centered {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.h3-second-subtitle-centered {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.paragraph-bottom-margin{
+  margin-bottom: 80px;
+}
+
+.center-content-vertically
+{
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.header-padding{
+  margin-top:10px;
+  padding: 5px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, a.navbar-brand{
+Font-Family: 'Arvo', Serif;
+}
+h2, .h2{
+
+}
+h3, .h3{
+
+}
+h4, .h4{
+
+}
+nav a.navbar-brand{
+
+}
+p, .p{
+
+}
+
+body,html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility
+}
+:root {
+    font-size: 16px
+}
+
+body {
+    font-size: 1rem;
+    color: #ffffff!important;
+    overflow-x: hidden;
+    font-weight: 400;
+    letter-spacing: -.3px;
+    line-height: 1.5
+}
+body,button,input,select,textarea {
+    font-family: 'Lato',sans-serif
+}
+
+p {margin-bottom: 1.25em;}
+
+h1, h2, h3, h4, h5,  {
+  margin: 2.75rem 0 1rem;
+  Font-Family: 'Arvo', Serif;
+  color: #1b2733;
+  font-weight: 600;
+  line-height: 1.15;
+}
+ a.navbar-brand{
+   Font-Family: 'Arvo', Serif;
+   line-height: 100%;
+   margin: .5rem;
+ }
+
+h1 {
+  margin-top: 0;
+  font-size: 2.488em;
+}
+
+h2 {font-size: 2.074em;}
+
+h3 {font-size: 1.728em;}
+
+h4 {font-size: 1.44em;
+  color: #313639;
+}
+
+h5, p.subtitle {font-size: 1.2em;}
+
+small, .text_small {font-size: 0.833em;}
+button.btn-link{
+
+  cursor: pointer;
+  text-decoration: none;
+  transition: .3;
+}
+button.btn-link:hover{
+  text-decoration: underline;
+  opacity: .9;
+}
+.text-white{
+  color: #fff;
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+.navbar-light{
+  background-color: #ffffff;
+}
+
+
+/* Image Backgrounds */
+.storyBG{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.storyBG video {
+   position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0 !important;
+}
+.videoStory{
+   position: relative;
+  z-index: 5;
+
+}
+#IMG__home{
+
+  background-image: url('https://loremflickr.com/1920/1080');
+  background-color: #fe6f73;
+
+}
+
+/* Background Blend Utility Classes */
+.blend--multiply {
+  background-blend-mode: multiply;
+}
+.blend--darken {
+  background-blend-mode: darken;
+}
+.blend--screen {
+  background-blend-mode: screen;
+}
+
+.logo-wrapper{
+  max-width: 250px;
+}
+.storyBG .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
