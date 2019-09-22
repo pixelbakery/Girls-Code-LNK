@@ -1,15 +1,14 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <title>Here's my page title</title>
+    <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="../assets/css/stylesheet.css" rel="stylesheet">
-    <link href="../assets/css/typography.css" rel="stylesheet">
-
-    <title>Hello, world!</title>
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
   </head>
   <body>
